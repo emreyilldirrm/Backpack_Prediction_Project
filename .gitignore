@@ -1,0 +1,3 @@
+# datasets klasöründeki spesifik dosyaları hariç tut
+datasets/training_extra.csv
+datasets/train.csv
