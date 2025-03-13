@@ -3,6 +3,7 @@ import pandas as pd
 from utils import load_model  # Modeli yükleyen yardımcı fonksiyon
 
 st.title("🎒 Çanta Fiyat Tahmini Yapalım")
+st.subheader("Yan panel üzerinden çanta özelliklerini Giriniz 👜")
 st.sidebar.header("📌 Çanta özelliklerini Giriniz")
 
 
