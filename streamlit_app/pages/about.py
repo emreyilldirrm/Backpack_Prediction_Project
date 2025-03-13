@@ -1,5 +1,11 @@
 import streamlit as st
 
+import os
+
+
+st.write("Çalışma dizini:", os.getcwd())
+st.write("Mevcut dosyalar:", os.listdir(os.getcwd()))
+
 st.title("ℹ️ Hakkında")
 st.write("""
 Bu proje, Streamlit kullanarak bir makine öğrenmesi modeliyle tahmin yapmayı sağlamaktadır.
