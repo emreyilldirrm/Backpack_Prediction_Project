@@ -28,7 +28,7 @@ df_te = pd.read_csv(dataset_path)
 
 
 # Streamlit layout
-st.title("---")
+"---"
 pie_fig = px.pie(df_te, names="Material", title="Distribution of Bag Materials")
 
 
