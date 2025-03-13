@@ -31,15 +31,15 @@ df_te = pd.read_csv(dataset_path)
 
 
 # Create the visualizations
-scatter_fig = px.scatter(df_te, x="Compartments", y="Weight Capacity (kg)", color="Brand",
+"""scatter_fig = px.scatter(df_te, x="Compartments", y="Weight Capacity (kg)", color="Brand",
                          title="Weight Capacity vs Compartments by Brand")
-bar_fig = px.bar(df_te, x="Brand", y="Weight Capacity (kg)", title="Weight Capacity by Brand")
+bar_fig = px.bar(df_te, x="Brand", y="Weight Capacity (kg)", title="Weight Capacity by Brand")"""
 pie_fig = px.pie(df_te, names="Material", title="Distribution of Bag Materials")
 
 # Streamlit layout
-st.title("Çanta özellik Görselleştirmeleri")
+st.title("---")
 
-# Create two columns for layout
+"""# Create two columns for layout
 col1, col2 = st.columns(2)
 
 # Place the scatter plot in the first column
@@ -48,7 +48,7 @@ with col1:
 
 # Place the bar plot in the second column
 with col2:
-    st.plotly_chart(bar_fig)
+    st.plotly_chart(bar_fig)"""
 
 # Pie chart below the two plots
 st.plotly_chart(pie_fig)
